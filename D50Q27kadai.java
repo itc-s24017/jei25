@@ -1,4 +1,4 @@
-public class D5027kadai {
+public class D50Q27kadai {
     public static void main(String[] args) {
         int control = 3;
         String mode;
