@@ -14,7 +14,7 @@ public class D5027kadai {
                 mode = "Wind";
                 break;
             default:
-                mode = " ";
+                mode = "";
                 break;
         }
         System.out.println(mode);
