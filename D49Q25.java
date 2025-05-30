@@ -1,10 +1,12 @@
 public class D49Q25 {
-    String code;
     public static void main(String[] args) {
-        D49Q25 obj = new D49Q25();
-        obj.setCode("FB1");
+        double a = 12.3;
+        double b = 4.5;
+        D49Q25 o = new D49Q25();
+        int c = o.number(a,b);
+        System.out.println(c);
     }
-    void setCode(String s) {
-        code = s;
+    int number(double v1, double v2) {
+        return (int)(v1 / v2);
     }
 }
