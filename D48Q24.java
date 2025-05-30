@@ -1,4 +1,4 @@
-public class D49Q24 {
+public class D48Q24 {
     public static void main(String[] args) {
         for (int i = 0; i < 9; i++) {
             if (i % 3 != 0) {

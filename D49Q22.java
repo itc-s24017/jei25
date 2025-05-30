@@ -1,11 +1,14 @@
-enum Connection {OFFLINE, ONLINE}
-
-class D49Q22 {
+public class D49Q22 {
     public static void main(String[] args) {
-        Connection s = Connection.OFFLINE;
-        if (s == Connection.OFFLINE){
-            s = Connection.ONLINE;
+        int length = 1600;
+        String type;
+        if(length < 1000){
+            type = "Short";
+        } else if(length > 2000){
+            type = "Long";
+        }else{
+            type = "Standard";
         }
-        System.out.println(s);
+        System.out.println(type);
     }
 }

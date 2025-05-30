@@ -1,8 +1,8 @@
 public class D49Q21 {
     public static void main(String[] args) {
-        int x, y =25;
+        int n1 = 80;
+        int n2 = 0x10;
 
-        x = y /= 4+ 3;
-        System.out.println(x + " " + y);
+        System.out.println(n1+n2);
     }
 }
