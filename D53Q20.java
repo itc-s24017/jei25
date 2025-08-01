@@ -3,7 +3,7 @@ public class D53Q20 {
         int i = 8;
         float f = 3.27f;
 
-        float n = i + f;
+        float n = i + f;    //  float型にした
         System.out.println(n);
     }
 }
